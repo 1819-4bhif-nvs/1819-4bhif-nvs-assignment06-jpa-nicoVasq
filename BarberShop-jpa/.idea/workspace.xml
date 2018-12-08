@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BarberShop-jpa:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ee88d11-0ff2-4e78-9b86-104ead30ace2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RegularEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dbDS@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dbDS@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dbDS@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="HAIRCOLOR: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/HAIRCOLOR">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Booking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BarberShopEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/LocalDateTimeConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="200" />
+    <option name="y" value="-15" />
+    <option name="width" value="1000" />
+    <option name="height" value="750" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="at" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="at" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="htl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="at" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="htl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="barbershop" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="at" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="htl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="barbershop" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="business" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="at" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="htl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="barbershop" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="at" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="htl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="barbershop" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BarberShop-jpa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BarberShop-jpa" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="META-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="derby" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544281082612" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="WildFly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 14.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="BarberShop-jpa:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54705" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BarberShop-jpa:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ee88d11-0ff2-4e78-9b86-104ead30ace2" name="Default Changelist" comment="" />
+      <created>1543823824262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543823824262</updated>
+      <workItem from="1543823833978" duration="100000" />
+      <workItem from="1543824061344" duration="2628000" />
+      <workItem from="1543827567030" duration="7142000" />
+      <workItem from="1544178612338" duration="1222000" />
+      <workItem from="1544266165603" duration="34000" />
+      <workItem from="1544266245872" duration="13644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24770000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49926794" visible="true" weight="0.17516778" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Persistence" order="9" sideWeight="0.50073206" side_tool="true" visible="true" weight="0.17516778" />
+      <window_info anchor="bottom" id="Database Console" weight="0.329429" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.25036603" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.329429" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50201344" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.329429" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.1442953" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d82c29cf-a012-44a9-b9c8-557c0c1fea38/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/at.htl.barbershop.entity.Booking">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.barbershop.entity.Booking</OriginalElement>
+          <nodes>
+            <node x="0.0" y="119.0">at.htl.barbershop.entity.Equipment</node>
+            <node x="0.0" y="0.0">at.htl.barbershop.entity.Product</node>
+            <node x="0.0" y="238.0">at.htl.barbershop.entity.Booking</node>
+            <node x="175.0" y="119.0">at.htl.barbershop.entity.Haircolor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="16.0" y="93.0" />
+          <SelectedNodes>
+            <node>at.htl.barbershop.entity.Booking</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>Project Files</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RegularEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/LocalDateTimeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/eb075141/dbPU/BarberShop-jpa/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/eb075141/dbPU/BarberShop-jpa/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="" y="">Regular#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Regular.java</node>
+            <node x="" y="">Client#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Client.java</node>
+            <node x="" y="">Blowdryer#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Blowdryer.java</node>
+            <node x="" y="">Equipment#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Equipment.java</node>
+            <node x="" y="">Customer#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Customer.java</node>
+            <node x="" y="">Haircolor#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Haircolor.java</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8364389233954451" x="213.14108910891093" y="263.779702970297" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/HAIRCOLOR">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>BarberShop-jpa:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA (BarberShop-jpa)|JPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BarberShop-jpa</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax:javaee-web-api:8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
