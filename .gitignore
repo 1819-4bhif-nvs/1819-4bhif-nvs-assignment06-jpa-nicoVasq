@@ -2,6 +2,8 @@
 # Created by https://www.gitignore.io/api/java,jboss,maven,windows
 # Edit at https://www.gitignore.io/?templates=java,jboss,maven,windows
 
+db/
+
 ### Java ###
 # Compiled class file
 *.class
