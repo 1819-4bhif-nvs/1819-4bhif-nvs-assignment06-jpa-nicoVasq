@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Barbershop-st" />
+        <module name="barbershop-st" />
       </profile>
     </annotationProcessing>
   </component>
