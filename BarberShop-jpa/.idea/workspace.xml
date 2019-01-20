@@ -7,19 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee88d11-0ff2-4e78-9b86-104ead30ace2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RegularEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/BarberShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BarberShopEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d82c29cf-a012-44a9-b9c8-557c0c1fea38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d82c29cf-a012-44a9-b9c8-557c0c1fea38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/EmployeeEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/EmployeeEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/ServiceEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/ServiceEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Barbershop-st/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Barbershop-st/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Barbershop-st/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Barbershop-st/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Barbershop-st/src/test/java/at/htl/BarbershopST/BarberShopTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Barbershop-st/src/test/java/at/htl/BarbershopST/BarberShopTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,86 +56,16 @@
         <item name="dbDS@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dbDS@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
-        <item name="HAIRCOLOR: table" type="7a557cd6:DerbyImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/EmployeeEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="235">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +76,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="135">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/ServiceEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,10 +100,215 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/HAIRCOLOR">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BarberShopEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/d82c29cf-a012-44a9-b9c8-557c0c1fea38">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
-              <filtering enabled="true" />
+              <ID>DATABASE</ID>
+              <OriginalElement>d82c29cf-a012-44a9-b9c8-557c0c1fea38</OriginalElement>
+              <nodes>
+                <node x="36.4014732965008" y="80.0257826887661">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP</node>
+                <node x="-181.96685082872938" y="361.90607734806633">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.PERSON</node>
+                <node x="308.80662983425395" y="150.72928176795577">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP_EQUIPMENT</node>
+                <node x="17.421731123388668" y="449.646408839779">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CUSTOMER</node>
+                <node x="277.6629834254144" y="398.95764272559853">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.SERVICE</node>
+                <node x="22.744014732964956" y="276.52302025782694">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE</node>
+                <node x="476.4861878453037" y="276.18232044198885">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT</node>
+                <node x="752.6261510128913" y="273.0018416206262">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BLOWDRYER</node>
+                <node x="720.5856353591162" y="457.37753222836096">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.HAIRCOLOR</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.SERVICE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CUSTOMER">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP_EQUIPMENT" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CUSTOMER" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.PERSON">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.HAIRCOLOR" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.PERSON">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP_EQUIPMENT" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.SERVICE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BLOWDRYER" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5739957716701902" x="411.5" y="453.00000000000006" />
+              <SelectedNodes>
+                <node>d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.HAIRCOLOR</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/at.htl.barbershop.entity.BarberShop">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>at.htl.barbershop.entity.BarberShop</OriginalElement>
+              <nodes>
+                <node x="440.0" y="489.0">at.htl.barbershop.entity.Equipment</node>
+                <node x="318.0" y="326.0">at.htl.barbershop.entity.BarberShop</node>
+                <node x="215.0" y="188.0">at.htl.barbershop.entity.Employee</node>
+                <node x="280.0" y="36.0">at.htl.barbershop.entity.Person</node>
+                <node x="373.0" y="662.0">at.htl.barbershop.entity.Haircolor</node>
+                <node x="631.0" y="504.0">at.htl.barbershop.entity.Blowdryer</node>
+                <node x="0.0" y="105.0">at.htl.barbershop.entity.Service</node>
+                <node x="62.0" y="0.0">at.htl.barbershop.entity.Customer</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="at.htl.barbershop.entity.Customer" target="at.htl.barbershop.entity.Person">
+                  <point x="1.1744239395348472" y="-4.860116090202723" />
+                  <point x="1.1744239395348472" y="-4.860116090202723" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.Employee" target="at.htl.barbershop.entity.Service">
+                  <point x="-1.084652289093281" y="4.880935300919759" />
+                  <point x="-1.0846522890932704" y="4.880935300919759" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.Employee" target="at.htl.barbershop.entity.Person">
+                  <point x="-4.900577058525274" y="-0.9921413676768935" />
+                  <point x="-4.900577058525272" y="-0.9921413676768793" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.Blowdryer" target="at.htl.barbershop.entity.Equipment">
+                  <point x="0.0" y="-5.000942507077156" />
+                  <point x="2.8421709430404007E-14" y="-5.000942507077156" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.Haircolor" target="at.htl.barbershop.entity.Equipment">
+                  <point x="5.146483469793935" y="0.0" />
+                  <point x="5.146483469793878" y="0.0" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.BarberShop" target="at.htl.barbershop.entity.Equipment">
+                  <point x="4.327131427405618" y="-2.5051813527085223" />
+                  <point x="4.327131427405618" y="-2.5051813527085187" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.Service" target="at.htl.barbershop.entity.Customer">
+                  <point x="-4.647374518900193" y="-1.8444267621885047" />
+                  <point x="-4.647374518900193" y="-1.8444267621885047" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.Employee" target="at.htl.barbershop.entity.BarberShop">
+                  <point x="18.94811665374982" y="0.0" />
+                  <point x="18.94811665374982" y="0.0" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.BarberShop" target="at.htl.barbershop.entity.Employee">
+                  <point x="-6.316038884583293" y="0.0" />
+                  <point x="-6.316038884583266" y="0.0" />
+                </edge>
+                <edge source="at.htl.barbershop.entity.Service" target="at.htl.barbershop.entity.Employee">
+                  <point x="0.0" y="-5.121969142940486" />
+                  <point x="0.0" y="-5.121969142940486" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="39.666666666666515" y="352.66666666666663" />
+              <SelectedNodes>
+                <node>at.htl.barbershop.entity.BarberShop</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/BarberShop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#getId#0;n#BarberShop#0" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,18 +333,25 @@
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Booking.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BarberShopEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/LocalDateTimeConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RegularEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/EmployeeEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/ServiceEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/BarberShop.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BarberShopEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java" />
       </list>
     </option>
   </component>
@@ -201,10 +363,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="200" />
-    <option name="y" value="-15" />
-    <option name="width" value="1000" />
-    <option name="height" value="750" />
+    <option name="x" value="543" />
+    <option name="y" value="106" />
+    <option name="width" value="1232" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,6 +374,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -316,19 +480,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="derby" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544281082612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547998705274" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -434,11 +597,17 @@
       <workItem from="1544178612338" duration="1222000" />
       <workItem from="1544266165603" duration="34000" />
       <workItem from="1544266245872" duration="13644000" />
+      <workItem from="1546857806316" duration="878000" />
+      <workItem from="1547042503142" duration="5163000" />
+      <workItem from="1547060589508" duration="3571000" />
+      <workItem from="1547137428273" duration="1994000" />
+      <workItem from="1547148353651" duration="6181000" />
+      <workItem from="1547978710281" duration="17956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24770000" />
+    <option name="totallyTimeSpent" value="60513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +622,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49926794" visible="true" weight="0.17516778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56281406" visible="true" weight="0.18456376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -462,23 +631,24 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info id="Persistence" order="9" sideWeight="0.50073206" side_tool="true" visible="true" weight="0.17516778" />
-      <window_info anchor="bottom" id="Database Console" weight="0.329429" />
+      <window_info id="Persistence" order="9" sideWeight="0.43718594" side_tool="true" visible="true" weight="0.18456376" />
+      <window_info anchor="bottom" id="JPA Console" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.25036603" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.4568082" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.12591508" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.329429" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" weight="0.2796486" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50201344" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.329429" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -486,7 +656,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.1442953" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.2" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
@@ -497,82 +667,385 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/ServiceEndpoint.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d82c29cf-a012-44a9-b9c8-557c0c1fea38/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://JAVA/at.htl.barbershop.entity.Booking">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Booking.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Product.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/LocalDateTimeConverter.java" />
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/HAIRCOLOR" />
+    <entry file="uml://Cdi/at.htl.barbershop.business.InitBean">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>JAVA</ID>
-          <OriginalElement>at.htl.barbershop.entity.Booking</OriginalElement>
+          <ID>Cdi</ID>
+          <OriginalElement>at.htl.barbershop.business.InitBean</OriginalElement>
           <nodes>
-            <node x="0.0" y="119.0">at.htl.barbershop.entity.Equipment</node>
-            <node x="0.0" y="0.0">at.htl.barbershop.entity.Product</node>
-            <node x="0.0" y="238.0">at.htl.barbershop.entity.Booking</node>
-            <node x="175.0" y="119.0">at.htl.barbershop.entity.Haircolor</node>
+            <node x="0.0" y="0.0">at.htl.barbershop.business.InitBean</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="16.0" y="93.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-225.0" y="-59.0" />
           <SelectedNodes>
-            <node>at.htl.barbershop.entity.Booking</node>
+            <node>at.htl.barbershop.business.InitBean</node>
           </SelectedNodes>
           <Categories>
-            <Category>Fields</Category>
+            <Category>@Inject</Category>
+            <Category>@Produces</Category>
+            <Category>@Decorator</Category>
           </Categories>
-          <SCOPE>Project Files</SCOPE>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">images</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">org</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">at</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="233.0" y="203.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="19" selection-start-line="19" selection-end-line="20" />
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity;C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/rest;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity;C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/rest;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="503.0" y="315.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Booking.java">
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/CUSTOMER" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+    <entry file="uml://JAVA/at.htl.barbershop">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.barbershop</OriginalElement>
+          <nodes>
+            <node x="" y="">at.htl.barbershop.business</node>
+            <node x="" y="">at.htl.barbershop.entity</node>
+            <node x="" y="">at.htl.barbershop.rest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="62.0" y="90.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
+    <entry file="uml://JAVA/at.htl.barbershop.entity.Customer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.barbershop.entity.Customer</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">javax.persistence.Inheritance</node>
+            <node x="" y="">at.htl.barbershop.entity.Customer</node>
+            <node x="" y="">javax.persistence.NamedQuery</node>
+            <node x="" y="">at.htl.barbershop.entity.Client</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="154.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RegularEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/Persistence Unit dbPU.png" />
+    <entry file="uml://JAVA/at.htl.barbershop.entity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.barbershop.entity</OriginalElement>
+          <nodes>
+            <node x="118.12499999999999" y="0.0">at.htl.barbershop.entity.Equipment</node>
+            <node x="200.0" y="146.0">at.htl.barbershop.entity.Haircolor</node>
+            <node x="0.0" y="146.0">at.htl.barbershop.entity.Blowdryer</node>
+            <node x="208.0" y="400.0">at.htl.barbershop.entity.Customer</node>
+            <node x="131.625" y="265.0">at.htl.barbershop.entity.Client</node>
+            <node x="0.0" y="389.0">at.htl.barbershop.entity.Regular</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="at.htl.barbershop.entity.Regular" target="at.htl.barbershop.entity.Client">
+              <point x="-47.0" y="-37.0" />
+              <point x="47.0" y="359.0" />
+              <point x="147.875" y="359.0" />
+              <point x="-48.75" y="37.0" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Blowdryer" target="at.htl.barbershop.entity.Equipment">
+              <point x="45.0" y="-37.0" />
+              <point x="135.0" y="126.0" />
+              <point x="174.375" y="126.0" />
+              <point x="-18.75" y="48.0" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Haircolor" target="at.htl.barbershop.entity.Equipment">
+              <point x="-51.25" y="-37.0" />
+              <point x="251.25" y="126.0" />
+              <point x="211.875" y="126.0" />
+              <point x="18.75" y="48.0" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Customer" target="at.htl.barbershop.entity.Client">
+              <point x="44.25" y="-26.0" />
+              <point x="340.75" y="359.0" />
+              <point x="245.375" y="359.0" />
+              <point x="48.75" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-28.0" y="108.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/d82c29cf-a012-44a9-b9c8-557c0c1fea38.SCHEMA:APP">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>d82c29cf-a012-44a9-b9c8-557c0c1fea38.SCHEMA:APP</OriginalElement>
+          <nodes>
+            <node x="" y="">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CUSTOMER</node>
+            <node x="" y="">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.REGULAR</node>
+            <node x="" y="">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CLIENT</node>
+            <node x="" y="">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT</node>
+            <node x="" y="">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BLOWDRYER</node>
+            <node x="" y="">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.HAIRCOLOR</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5257393209200438" x="617.0" y="331.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/at.htl.barbershop.entity.Blowdryer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.barbershop.entity.Blowdryer</OriginalElement>
+          <nodes>
+            <node x="" y="">at.htl.barbershop.entity.Equipment</node>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">at.htl.barbershop.entity.Employee</node>
+            <node x="" y="">javax.persistence.Inheritance</node>
+            <node x="" y="">at.htl.barbershop.entity.Person</node>
+            <node x="" y="">at.htl.barbershop.entity.Haircolor</node>
+            <node x="" y="">at.htl.barbershop.entity.Blowdryer</node>
+            <node x="" y="">at.htl.barbershop.entity.Service</node>
+            <node x="" y="">javax.persistence.NamedQuery</node>
+            <node x="" y="">at.htl.barbershop.entity.Customer</node>
+            <node x="" y="">at.htl.barbershop.entity.Regular</node>
+            <node x="" y="">javax.persistence.NamedQueries</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8" x="537.0" y="341.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/RegularEndpoint.java" />
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/SERVICE" />
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/EMPLOYEE" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BerberShopEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/BARBERSHOP">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/EQUIPMENT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/SERVICE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/SERVICE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/SERVICE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/SERVICE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getLastVisited#0;n#Customer#0" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getCustomer#0;n#Service#0" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -586,76 +1059,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Regular.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/LocalDateTimeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/BARBERSHOP_EQUIPMENT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Equipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -665,16 +1072,18 @@
           <ID>Persistence</ID>
           <OriginalElement>JavaeeElement:/eb075141/dbPU/BarberShop-jpa/jpa/JPA/PersistenceModel</OriginalElement>
           <nodes>
-            <node x="" y="">Regular#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Regular.java</node>
-            <node x="" y="">Client#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Client.java</node>
             <node x="" y="">Blowdryer#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Blowdryer.java</node>
-            <node x="" y="">Equipment#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Equipment.java</node>
+            <node x="" y="">BarberShop#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/BarberShop.java</node>
+            <node x="" y="">Service#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Service.java</node>
             <node x="" y="">Customer#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Customer.java</node>
+            <node x="" y="">Equipment#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Equipment.java</node>
+            <node x="" y="">Person#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Person.java</node>
+            <node x="" y="">Employee#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Employee.java</node>
             <node x="" y="">Haircolor#file://C:/Users/light/Documents/HTL/4BHIF/MAVEN/1819-4bhif-nvs-assignment06-jpa-nicoVasq/BarberShop-jpa/src/main/java/at/htl/barbershop/entity/Haircolor.java</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.8364389233954451" x="213.14108910891093" y="263.779702970297" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="344.0" y="245.0" />
           <SelectedNodes />
           <Categories>
             <Category>Properties</Category>
@@ -684,58 +1093,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="67">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/HAIRCOLOR">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Blowdryer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/Haircolor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
-          <folding>
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-149">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/entity/BarberShop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="297">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#BarberShop#0" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/business/InitBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="135">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/ServiceEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/HaircolorEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -744,18 +1181,181 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/CustomerEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="359">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/EmployeeEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="235">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BarberShopEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d82c29cf-a012-44a9-b9c8-557c0c1fea38/schema/APP/table/BLOWDRYER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/barbershop/rest/BlowdryerEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/at.htl.barbershop.entity.BarberShop">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.barbershop.entity.BarberShop</OriginalElement>
+          <nodes>
+            <node x="440.0" y="489.0">at.htl.barbershop.entity.Equipment</node>
+            <node x="318.0" y="326.0">at.htl.barbershop.entity.BarberShop</node>
+            <node x="215.0" y="188.0">at.htl.barbershop.entity.Employee</node>
+            <node x="280.0" y="36.0">at.htl.barbershop.entity.Person</node>
+            <node x="373.0" y="662.0">at.htl.barbershop.entity.Haircolor</node>
+            <node x="631.0" y="504.0">at.htl.barbershop.entity.Blowdryer</node>
+            <node x="0.0" y="105.0">at.htl.barbershop.entity.Service</node>
+            <node x="62.0" y="0.0">at.htl.barbershop.entity.Customer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="at.htl.barbershop.entity.Customer" target="at.htl.barbershop.entity.Person">
+              <point x="1.1744239395348472" y="-4.860116090202723" />
+              <point x="1.1744239395348472" y="-4.860116090202723" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Employee" target="at.htl.barbershop.entity.Service">
+              <point x="-1.084652289093281" y="4.880935300919759" />
+              <point x="-1.0846522890932704" y="4.880935300919759" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Employee" target="at.htl.barbershop.entity.Person">
+              <point x="-4.900577058525274" y="-0.9921413676768935" />
+              <point x="-4.900577058525272" y="-0.9921413676768793" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Blowdryer" target="at.htl.barbershop.entity.Equipment">
+              <point x="0.0" y="-5.000942507077156" />
+              <point x="2.8421709430404007E-14" y="-5.000942507077156" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Haircolor" target="at.htl.barbershop.entity.Equipment">
+              <point x="5.146483469793935" y="0.0" />
+              <point x="5.146483469793878" y="0.0" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.BarberShop" target="at.htl.barbershop.entity.Equipment">
+              <point x="4.327131427405618" y="-2.5051813527085223" />
+              <point x="4.327131427405618" y="-2.5051813527085187" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Service" target="at.htl.barbershop.entity.Customer">
+              <point x="-4.647374518900193" y="-1.8444267621885047" />
+              <point x="-4.647374518900193" y="-1.8444267621885047" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Employee" target="at.htl.barbershop.entity.BarberShop">
+              <point x="18.94811665374982" y="0.0" />
+              <point x="18.94811665374982" y="0.0" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.BarberShop" target="at.htl.barbershop.entity.Employee">
+              <point x="-6.316038884583293" y="0.0" />
+              <point x="-6.316038884583266" y="0.0" />
+            </edge>
+            <edge source="at.htl.barbershop.entity.Service" target="at.htl.barbershop.entity.Employee">
+              <point x="0.0" y="-5.121969142940486" />
+              <point x="0.0" y="-5.121969142940486" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="39.666666666666515" y="352.66666666666663" />
+          <SelectedNodes>
+            <node>at.htl.barbershop.entity.BarberShop</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/d82c29cf-a012-44a9-b9c8-557c0c1fea38">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>d82c29cf-a012-44a9-b9c8-557c0c1fea38</OriginalElement>
+          <nodes>
+            <node x="36.4014732965008" y="80.0257826887661">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP</node>
+            <node x="-181.96685082872938" y="361.90607734806633">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.PERSON</node>
+            <node x="308.80662983425395" y="150.72928176795577">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP_EQUIPMENT</node>
+            <node x="17.421731123388668" y="449.646408839779">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CUSTOMER</node>
+            <node x="277.6629834254144" y="398.95764272559853">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.SERVICE</node>
+            <node x="22.744014732964956" y="276.52302025782694">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE</node>
+            <node x="476.4861878453037" y="276.18232044198885">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT</node>
+            <node x="752.6261510128913" y="273.0018416206262">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BLOWDRYER</node>
+            <node x="720.5856353591162" y="457.37753222836096">d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.HAIRCOLOR</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.SERVICE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CUSTOMER">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP_EQUIPMENT" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.CUSTOMER" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.PERSON">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.HAIRCOLOR" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.PERSON">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP_EQUIPMENT" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.SERVICE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EMPLOYEE" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BARBERSHOP">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.BLOWDRYER" target="d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.EQUIPMENT">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5739957716701902" x="411.5" y="453.00000000000006" />
+          <SelectedNodes>
+            <node>d82c29cf-a012-44a9-b9c8-557c0c1fea38.TABLE:APP.HAIRCOLOR</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
@@ -778,7 +1378,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA (BarberShop-jpa)|JPA</last-edited>
+          <last-edited>Web (BarberShop-jpa)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

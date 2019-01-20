@@ -3,7 +3,10 @@ package at.htl.barbershop.entity;
 import javax.persistence.*;
 
 @Entity
-@NamedQuery(name = "Haircolor.findByName", query = "select hc from Haircolor hc where hc.name = :NAME")
+@NamedQueries({
+        @NamedQuery(name = "Haircolor.findAll", query = "select hc from Haircolor hc"),
+        @NamedQuery(name = "Haircolor.findByName", query = "select hc from Haircolor hc where hc.name = :NAME")
+})
 public class Haircolor extends Equipment {
 
     private String color;

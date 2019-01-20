@@ -24,9 +24,16 @@ public class Service {
     public Service() {
     }
 
+    public Service(Customer customer, String serviceType, double price, LocalDate date) {
+        this.serviceType = serviceType;
+        this.price = price;
+        this.date = date;
+    }
+
     public Service(Customer customer, Employee employee, String serviceType, double price, LocalDate date) {
         this.customer = customer;
         this.employee = employee;
+        employee.AddServiceToList(this);
         this.serviceType = serviceType;
         this.price = price;
         this.date = date;
@@ -74,4 +81,5 @@ public class Service {
         this.date = date;
     }
     //endregion
+
 }

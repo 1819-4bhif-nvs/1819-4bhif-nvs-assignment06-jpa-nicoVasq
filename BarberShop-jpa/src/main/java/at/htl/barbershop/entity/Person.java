@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-public class Client {
+public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -12,10 +12,10 @@ public class Client {
 
 
     //region Constructor
-    public Client() {
+    public Person() {
     }
 
-    public Client(String name) {
+    public Person(String name) {
         this.name = name;
     }
 
